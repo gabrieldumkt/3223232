@@ -1,9 +1,9 @@
 import { BrowserRouter } from 'react-router-dom'
 
-export function Root() {
+function Root() {
   return (
-    <BrowserRouter basename="/lovable">   {/* 👈 importante! */}
-      {/* suas rotas */}
+    <BrowserRouter basename="/lovable">
+      {/* suas rotas aqui */}
     </BrowserRouter>
   )
 }
