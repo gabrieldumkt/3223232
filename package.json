@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "npm ci --prefix lovable && npm run build --prefix lovable && mkdir -p public/lovable && cp -r lovable/dist/* public/lovable/"
+  }
+}
